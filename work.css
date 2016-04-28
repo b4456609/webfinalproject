@@ -1,0 +1,19 @@
+body	{
+	background-image: url(pic/beautiful_light_by_lady_music-d33tu8r.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+p{
+	margin-top: 0px;
+}
+
+#container{
+	margin-top: 10px;
+}
+
+img{
+	margin-top: 100px;
+}

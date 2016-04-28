@@ -1,0 +1,60 @@
+#backIMG{
+	background: url(pic/Abstract-Light-Wallpapers10.jpg);
+        background-position: 50% 50%; 
+        background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+#umb{
+  float: right;
+margin-right: 108px;
+padding-top:10px; 
+}
+#lightDirIntro{
+  padding-top:15px; 
+  padding-left:15px;
+  padding-right:15px;
+  margin-top:20px; 
+  background-color:rgba(0,0,0,.5);
+  /*opacity:.5*/
+}
+
+.light {
+	margin: 0px 10px;
+	background-color:#79bbff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:8px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.light:hover {
+	background-color:#378de5;
+}
+.light:active {
+	position:relative;
+	top:1px;
+}
+
+.lightt {
+margin: 0px 10px;
+	background-color:#378de5;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:8px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}

@@ -1,0 +1,58 @@
+#backIMG{
+	background: url(pic/c.jpg);
+	background-repeat:no-repeat;
+}
+
+body{
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*************** header *************/
+#logo{
+	margin-top: 70px;
+}
+
+#logo-intro{
+	margin-top: 50px;
+}
+.start-button {
+	text-align: center;
+    color: rgb(51, 51, 51);
+	padding: 12px 30px;
+	border-radius: 4px;
+	border: 4px solid rgb(51, 51, 51);
+	font-size: 1em;
+	margin: 50px auto;
+	background-color: transparent;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.start-button:hover{
+	background-color: rgb(40, 40, 40);
+	color: white;
+}
+
+.start-button-a {
+    color: rgb(51, 51, 51);
+	padding: 10px 20px;
+	border-radius: 4px;
+	border: 3px solid rgb(51, 51, 51);
+	font-size: 1em;
+	background-color: transparent;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.start-button-a:hover{
+	background-color: rgb(40, 40, 40);
+	color: white;
+}
+
+.read{
+	width: auto;
+	height: 50px;
+	margin-top: 30%;
+}

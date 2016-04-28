@@ -1,0 +1,19 @@
+body{
+	background-image: url(pic/IMG_9554.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#container{
+	width: 940px;
+	text-align: center;
+}
+.word{
+	color: white;
+	text-align: left;
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5);
+	width: 100%;
+	margin-bottom: 200px;
+	padding: 20px;
+}

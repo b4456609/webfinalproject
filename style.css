@@ -1,0 +1,178 @@
+﻿#container{
+	font-family:微軟正黑體,arial,sans-serif;
+        color:white;
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+/**********light direction introduce ************/
+#lightDirIntro{
+	float: right;
+	width: 300px;
+	height: 500px;
+        margin-right:50px;
+}
+/*************** umb but ******************/
+#pic_table{
+	float: left;
+}
+.btn {
+	color: white;
+	border-color: rgb(53, 126, 189);
+	background: rgb(66, 139, 202);
+	padding: 6px 12px;
+	margin-bottom: 0px;
+	cursor: pointer;
+	background-image: none;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	display: inline-block;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-moz-user-select: none;
+}
+.btn:hover{
+	color: white;
+	border-color: rgb(40, 94, 142);
+	background-color: rgb(50, 118, 177);
+}
+
+.btn-click{
+	color: white;
+	border-color: rgb(40, 94, 142);
+	background-color: rgb(40, 94, 142);
+	padding: 6px 12px;
+	margin-bottom: 0px;
+	cursor: pointer;
+	background-image: none;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	display: inline-block;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-moz-user-select: none;
+}
+
+
+/******************* nav bar************************/
+.navicon{display:none}
+.nav,.nav *{-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box}
+.nav{-webkit-border-top-left-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	-moz-border-radius-topleft:2px;
+	-moz-border-radius-bottomleft:2px;
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+	font-family:微軟正黑體,arial,sans-serif;
+	font-size:1.5em;
+	font-weight:300;
+	position:fixed;
+	top:60px;
+	right:0;
+	list-style:none;
+	background:rgba(0,0,0,0.8);
+	padding:0;
+	z-index:20;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+	opacity:.5;
+	}
+.nav ul{list-style:none;
+	padding:0;
+	margin:0}
+.nav .glyphicon{font-size:.8em}
+.nav li{border-top:1px solid rgba(0,0,0,0.5);
+	color:#fff;
+	height:55px;
+	padding:9px 5px 8px 17px;
+	position:relative;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+	width:50px}
+.nav li:first-child{border-top:none}
+.nav a{color:#d0d1d2}
+.nav li:hover{background:rgba(255,255,255,0.1);
+	}
+.nav li:hover a{color:#fff}
+.nav li:hover .subchapters a{color:#fff;
+	text-shadow:none;
+	font-size:.6em;
+	display:block;
+	padding-left:20px;
+	font-weight:400}
+.subchapters .glyphicon{display:inline-block;
+	padding-right:4px;
+	margin-left:-25px;
+	width:20px;
+	color:#97d2fb}
+.no-rgba .nav{background:#000}
+.nav:hover{opacity:1;
+	}
+.nav:hover li{width:255px}
+.nav:hover li li{width:220px}
+.nav:hover .icon-facebook-rect:before{color:#3b5998}
+.nav:hover .icon-twitter-bird:before{color:#4099ff}
+.nav-title{left:50px;
+	font-family:微軟正黑體,arial,sans-serif;
+	font-size:1em;
+	line-height:1.2;
+	float:right;
+	width:200px;
+	/*padding-top:.5em;*/
+	position:absolute;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease}
+.nav > li.active{color:#086aa8}
+.section .nav-title,{margin-top:0;
+	padding-top:0}
+.section a{text-decoration: none;}
+.subchapters{background:rgba(0,46,92,0.8);
+	color:#fff;
+	display:none;
+	list-style:none;
+	padding:0;
+	position:absolute;
+	left:-220px;
+	margin:0;
+	top:-1px;
+	width:220px;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	transition:all .5s ease;
+	}
+.subchapters li{height:auto;
+	width:220px;
+	line-height:1.1;
+	border-top:none;
+	border-bottom:1px solid #0d3051;
+	padding:15px 20px;
+	}
+.subchapters li:last-child{border-bottom:none}
+.subchapters li:hover{width:220px}
+.subchapters li a{display:block;
+	width:180px}
+.home .subchapters{top:0}
+.chapter-nav > ul > li:hover > .subchapters{display:block}
+
+
+
